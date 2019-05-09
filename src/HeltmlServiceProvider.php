@@ -13,7 +13,7 @@ class HeltmlServiceProvider extends ServiceProvider
 
     public function register()
     {
-        
+        $this->app->make('Febrianrz\Heltml\Libraries\Heltml');
     }
 
 }
